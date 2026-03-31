@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Weather Banner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-banner">
+        <div class="time-section">
+            <span id="current-time">--:--</span>
+        </div>
+        
+        <div class="date-section">
+            <span id="current-date">----年--月--日</span>
+        </div>
+        
+        <div class="temperature-section">
+            <span id="temperature">--°C</span>
+        </div>
+        
+        <div class="humidity-section">
+            <span id="humidity">--%</span>
+        </div>
+        
+        <div class="weather-icon-section">
+            <img id="weather-icon" src="" alt="Weather" />
+        </div>
+        
+        <div class="warning-section" id="warning-section">
+            <!-- Warning icons will be dynamically inserted here -->
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
