@@ -25,4 +25,7 @@ Width 100% & Height 100PX Every 5 minutes Updata
 <li>黑色暴雨警告信號</li>
 <li>雷暴警告</li>
 <li>強烈季候風信號</li>
+<li>黃色工作暑熱警告</li>
+<li>紅色工作暑熱警告</li>
+<li>黑色工作暑熱警告</li>
 </ul>
